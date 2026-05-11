@@ -37,4 +37,7 @@ public class Topic {
     public void removePublisher(Agent a) {
         pubs.remove(a);
     }
+
+    public List<Agent> getSubs() { return subs; }
+    public List<Agent> getPubs() { return pubs; }
 }
